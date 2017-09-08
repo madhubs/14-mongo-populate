@@ -17,7 +17,7 @@ module.exports = function(router) {
     debug('/api/child/:_id GET');
 
     return Child.findById(req.params._id)
-      .populate('toy') //thank you to Said for helping with this
+      .populate({ path: 'toys' }) //toys is from child.js //thank you to Said for helping with this
       .then(child => res.json(child))//deleted child.map(child => child._ids
       .catch(err => errorHandler(err, req, res));
   });

@@ -91,12 +91,13 @@ X-Powered-By: Express
     { "_id" : ObjectId("59b167a41f2258fbdb489cc1"), "updatedAt" : ISODate("2017-09-07T15:37:08.242Z"), "createdAt" : ISODate("2017-09-07T15:37:08.242Z"), "name" : "gavin", "desc" : "human", "__v" : 0 }
     ```
 
-    - db.toys.drop() will drop those collections
+    - 'db.toys.drop()' will drop those collections
 
 
 # NOTES FOR MYSELF on 9/7:
 - Tests that I have copied over from lab 13 to this lab are passing but I have not worked on them thoroughly at all!
 - Michelle spent many hours working on tests for lab 9 and has been kind enough to share that knowledge with Isaiah and I. She has also welcomed us to look at her repo.
+- Scott mentioned that some functionality we haven't completed is if we delete a child we need to delete all their toy objects. we would put this in child.js.
 
 HOW TO TEST POST IN Mongo, using terminal:
 
