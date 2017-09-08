@@ -17,6 +17,7 @@ module.exports = function(router) {
     debug('/api/toy/:_id GET');
 
     return Toy.findById(req.params._id)
+      .populate('child')
       .then(toy => res.json(toy))//deleted toy.map(toy => toy._ids
       .catch(err => errorHandler(err, req, res));
   });
