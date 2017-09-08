@@ -96,7 +96,7 @@ X-Powered-By: Express
 
 # NOTES FOR MYSELF on 9/7:
 - Tests that I have copied over from lab 13 to this lab are passing but I have not worked on them thoroughly at all!
-
+- Michelle spent many hours working on tests for lab 9 and has been kind enough to share that knowledge with Isaiah and I. She has also welcomed us to look at her repo.
 
 HOW TO TEST POST IN Mongo, using terminal:
 
